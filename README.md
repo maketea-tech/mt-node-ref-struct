@@ -31,8 +31,8 @@ struct timeval {
 ```
 
 ``` js
-var ref = require('ref')
-var StructType = require('ref-struct')
+var ref = require('mt-node-ref')
+var StructType = require('mt-node-ref-struct')
 
 // define the time types
 var time_t = ref.types.long
@@ -67,8 +67,8 @@ instance of the struct type, then the struct type is finalized, and no more
 properties may be added to it.
 
 ``` js
-var ref = require('ref')
-var StructType = require('ref-struct')
+var ref = require('mt-node-ref')
+var StructType = require('mt-node-ref-struct')
 
 var MyStruct = StructType()
 MyStruct.defineProperty('width', ref.types.int)

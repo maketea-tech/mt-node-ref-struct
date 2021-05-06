@@ -1,9 +1,9 @@
 {
-  "name": "ref-struct",
+  "name": "mt-node-ref-struct",
   "description": "Create ABI-compliant \"struct\" instances on top of Buffers",
   "keywords": [
     "struct",
-    "ref",
+    "mt-node-ref",
     "abi",
     "c",
     "c++",
@@ -22,12 +22,12 @@
   },
   "dependencies": {
     "debug": "2",
-    "ref": "1"
+    "mt-node-ref": "https://github.com/maketea-tech/mt-node-ref.git"
   },
   "devDependencies": {
     "bindings": "~1.2.0",
     "nan": "2",
     "mocha": "*",
-    "ref-array": "~1.1.2"
+    "mt-node-ref-array": "https://github.com/maketea-tech/mt-node-ref-array.git"
   }
 }
