@@ -12,7 +12,7 @@
   * appveyor: drop v0.11, iojs v1.5.1, test x64
   * travis: drop v0.11, test iojs v2.5 and v3
   * package: add license attribute (#17, @pdehaan)
-  * package: update "ref-array" to v1.1.2
+  * package: update "mt-node-ref-array" to v1.1.2
   * package: update "nan" v2 for native tests
   * README: use SVG for appveyor badge
 
@@ -68,7 +68,7 @@
   * struct: correct the field alignment logic (TJ Fontaine)
   * test: add failing test from #1
   * test: more stucts with arrays tests
-  * add support for "ref-array" types
+  * add support for "mt-node-ref-array" types
   * add `toObject()`, `toJSON()`, and `inspect()` functions to struct instances
   * change `_pointer` to `buffer`
   * don't allow types with size == 0 like 'void'
