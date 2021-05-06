@@ -5,11 +5,9 @@
     "struct",
     "mt-node-ref",
     "abi",
-    "c",
-    "c++",
-    "ffi"
+    "mt-node-ffi"
   ],
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
   "repository": {
     "type": "git",

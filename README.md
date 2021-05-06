@@ -48,12 +48,12 @@ var timeval = StructType({
 var tv = new timeval
 ```
 
-#### With `node-ffi`
+#### With `mt-node-ffi`
 
-This gets very powerful when combined with `node-ffi` to invoke C functions:
+This gets very powerful when combined with `mt-node-ffi` to invoke C functions:
 
 ``` js
-var ffi = require('ffi')
+var ffi = require('mt-node-ffi')
 
 var tv = new timeval
 gettimeofday(tv.ref(), null)
